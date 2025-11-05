@@ -10,6 +10,7 @@
 
 ### step1: start the service
 ```
+$ conda activate base
 $ python3 /datapool/wangjl/soft/DaisyHttp/DaisyHttp.py 8578 /home/chenguanming/datapool/
 Perhaps, you also need to open the port using `iptables`.
 And use `ifconfig` to get your IP address.
@@ -68,3 +69,4 @@ $ ls -lth data/web/docs/audio/20041118_day_10-Atlantis.mp3
 - https://github.com/igvteam/igv.js/issues/1508
 
 - https://github.com/igvteam/igv.js/wiki/Data-Server-Requirements
+
