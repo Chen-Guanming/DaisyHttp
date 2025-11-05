@@ -10,7 +10,7 @@
 
 ### step1: start the service
 ```
-$ python3 DaisyHttp.py 8001 /home/wangjl/
+$ python3 /datapool/wangjl/soft/DaisyHttp/DaisyHttp.py 8578 /home/chenguanming/datapool/
 Perhaps, you also need to open the port using `iptables`.
 And use `ifconfig` to get your IP address.
 
@@ -66,4 +66,5 @@ $ ls -lth data/web/docs/audio/20041118_day_10-Atlantis.mp3
 - [range is inspired by] https://programtalk.com/vs4/python/2323/scout/scout/blueprints/pileup/partial.py/
 - https://developer.mozilla.org/en-US/docs/Web/HTTP
 - https://github.com/igvteam/igv.js/issues/1508
+
 - https://github.com/igvteam/igv.js/wiki/Data-Server-Requirements
